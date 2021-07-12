@@ -1,5 +1,3 @@
-import math
-
 def inicializa_triangulo():
     lados = list(map(float, input().split()))
     return lados[0], lados[1], lados[2]
